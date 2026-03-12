@@ -8,4 +8,10 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: false
+    show-sql: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
