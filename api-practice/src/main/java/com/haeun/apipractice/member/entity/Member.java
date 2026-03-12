@@ -24,9 +24,17 @@ public class Member {
 
     private String mbti;
 
+    private String profileImageKey; // S3 객체 key 저장
+    private String profileImageUrl; // S3 기본 URL 저장
+
     public Member(String name, Integer age, String mbti) {
         this.name = name;
         this.age = age;
         this.mbti = mbti;
+    }
+
+    public void updateProfileImage(String profileImageKey, String profileImageUrl) {
+        this.profileImageKey = profileImageKey;
+        this.profileImageUrl = profileImageUrl;
     }
 }

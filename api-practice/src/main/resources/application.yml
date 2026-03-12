@@ -1,6 +1,16 @@
 spring:
   profiles:
     active: prod
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  cloud:
+    aws:
+      region:
+        static: ap-northeast-2
+      s3:
+        bucket: haeun-aws-study-files
 
 management:
   endpoints:

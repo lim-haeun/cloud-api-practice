@@ -1,10 +1,8 @@
 package com.haeun.apipractice.member.dto;
 
 import com.haeun.apipractice.member.entity.Member;
-import jakarta.validation.constraints.NotBlank;
 import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+
 
 
 @Builder
