@@ -93,3 +93,7 @@ https://haeun-aws-study-files.s3.ap-northeast-2.amazonaws.com/members/1/0d164371
 Presigned URL 만료시간
 "2026-03-20T03:53:17.33464312"
 
+## 5. 제출 정보
+
+TIL 블로그 링크: https://aspiring-backend.tistory.com/6
+구현 단계: LV 3 (필수)
